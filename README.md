@@ -1,1 +1,1 @@
-# mva_bayesian_project_2025_2026
+# MVA Bayesian Project

@@ -16,10 +16,10 @@ This notebook showcases the problem of estimating the mean of a mixture of cente
 Results showcase the benefits of choosing an adapted loss with Gibbs learning. It also shows how tempered Bayesian models can improve accuracy at the cost of concentration, illustrating the lack of confidence interpretation.
 
 
-## general_bayes_reg_lin.ipynb
+## linear_regression_example.ipynb
 
 This notebook showcases certain properties of Gibbs learning for simple prediction tasks.
 
-It illustrates the influence of the choice of loss and parameter $eta$ on the posterior concentration. Posteriors are computed using the MH algorithm.
+It illustrates the influence of the choice of loss and parameter $eta$ on the posterior concentration. Posteriors are computed using the MH sampling algorithm.
 
-It also empirically shows that affine transformations of the loss preserve the Gibbs posterior but affect the normalization $Z$.
+It also empirically shows that data only transformations of the loss preserve the Gibbs posterior but affect the normalization $Z$.

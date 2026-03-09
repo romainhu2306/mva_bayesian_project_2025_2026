@@ -9,9 +9,9 @@ This is the repository attached to our work on the paper by McAlinn and Takanash
 
 This notebook showcases the problem of estimating the mean of a mixture of centered gaussian distributions with outliers. It compares the performance and posterior concentration of 3 models with normal priors:
 
-- A standard Bayesian model with gaussian likelihood: $p(\theta|y) = p(y|\theta)\pi(\theta)$ ;
-- A tempered model of the previous version with small confidence parameter $\eta$: $p(\theta|y) = p(y|\theta)^\eta \pi(\theta)$
-- A Gibbs model using the Huber loss: $p(\theta|y) = exp(-\eta l(\theta, y)) \pi(\theta)$
+- A standard Bayesian model with gaussian likelihood: $p(\theta|y) \propto p(y|\theta)\pi(\theta)$ ;
+- A tempered model of the previous version with small confidence parameter $\eta$: $p(\theta|y) \propto p(y|\theta)^\eta \pi(\theta)$
+- A Gibbs model using the Huber loss: $p(\theta|y) \propto exp(-\eta l(\theta, y)) \pi(\theta)$
 
 Results showcase the benefits of choosing an adapted loss with Gibbs learning. It also shows how tempered Bayesian models can improve accuracy at the cost of concentration, illustrating the lack of confidence interpretation.
 

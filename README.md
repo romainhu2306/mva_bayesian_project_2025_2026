@@ -23,3 +23,5 @@ This notebook showcases certain properties of Gibbs learning for simple predicti
 It illustrates the influence of the choice of loss and parameter $eta$ on the posterior concentration. Posteriors are computed using the MH sampling algorithm.
 
 It also empirically shows that data only transformations of the loss preserve the Gibbs posterior but affect the normalization $Z$.
+
+Finally, randomized predictors are used on a misspecified setting, where linear data is fitted with an exponential model $y = exp(\theta x)$, showing how randomized predictions can acquire properties that go beyond the original model class.

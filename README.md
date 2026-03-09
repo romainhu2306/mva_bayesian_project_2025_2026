@@ -20,7 +20,7 @@ Results showcase the benefits of choosing an adapted loss with Gibbs learning. I
 
 This notebook showcases certain properties of Gibbs learning for simple prediction tasks.
 
-It illustrates the influence of the choice of loss and parameter $eta$ on the posterior concentration. Posteriors are computed using the MH sampling algorithm.
+It illustrates the influence of the choice of loss and parameter $\eta$ on the posterior concentration. Posteriors are computed using the MH sampling algorithm.
 
 It also empirically shows that data only transformations of the loss preserve the Gibbs posterior but affect the normalization $Z$.
 

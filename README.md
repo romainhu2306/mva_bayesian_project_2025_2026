@@ -25,3 +25,8 @@ It illustrates the influence of the choice of loss and parameter $eta$ on the po
 It also empirically shows that data only transformations of the loss preserve the Gibbs posterior but affect the normalization $Z$.
 
 Finally, randomized predictors are used on a misspecified setting, where linear data is fitted with an exponential model $y = exp(\theta x)$, showing how randomized predictions can acquire properties that go beyond the original model class.
+
+
+## GeneralBayesFunctions.py
+
+Contains utils functions for the linear regression example, including losses and sampling functions.
